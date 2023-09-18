@@ -13,57 +13,56 @@ body {
 
 .calc {
     border: 2px solid darkslategray;
-    padding: 24px;
+    padding: 32px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    border-radius: 5%;
+    border-radius: 4%;
+    background-color: lightgray;
+    gap: 26px;
 }
 
 .calc-row {
     display: flex;
-    gap: 4px;
+    gap: 16px;
+
 }
 
 .calc-btn {
     margin: 0;
     padding: 0;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 70px;
     border: 3px solid darkslategray;
     border-radius: 10%;
+    font-size: 24px;
 }
 
 #clear,
 #delete {
     flex: 1 1 auto;
     border-radius: 6px;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
-}
-
-.calc-row:first-child {
-    margin: 8px 0;
-    gap: 8px;
 }
 
 
 .calc-display {
-    height: 80px;
+    height: 120px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     border: 2px solid black;
     border-radius: 4px;
+    background-color: #f0f0f0;
 }
 
 .calc-buttons {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 16px;
 }
 
 div.input {
-    font-size: 22px;
-    padding: 8px;
+    font-size: 28px;
+    padding: 16px;
 }
