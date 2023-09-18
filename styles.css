@@ -40,6 +40,19 @@ h1 {
     border: 3px solid darkslategray;
     border-radius: 10%;
     font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 7px #999;
+
+}
+
+.calc-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.calc-btn:active {
+    transform: translateY(3px);
+    box-shadow: 0 3px #666;
+
 }
 
 #clear,
